@@ -26,7 +26,7 @@ def main():
         for category, items in itertools.groupby(item_list, key=lambda item: item.category):
             f.write("## {}\n\n".format(category))
             for item in items:
-                line = ' - [{filename} {category}]({filepath})\n'\
+                line = ' - [{filename}]({filepath})\n'\
                     .format(filename=item.filename, category=item.category, filepath=item.filepath)
                 f.write(line)
             f.write("\n\n")
