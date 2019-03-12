@@ -1,11 +1,28 @@
-- [Chrome Flash插件已被拦截](source/solution/Chrome Flash插件已被拦截.md)
-- [JSONSchema](source/slideshow/JSONSchema.slides.html)
-- [创建高质量Python项目](source/slideshow/创建高质量Python项目.slides.html)
-- [在Python项目中使用Makefile](source/slideshow/在Python项目中使用Makefile.slides.html)
-- [Docker安装MySQL并设置UTF8编码](source/Linux/Docker安装MySQL并设置UTF8编码.md)
-- [NCR 编码解码](source/python/NCR 编码解码.md)
-- [Python解析unicode转义](source/python/Python解析unicode转义.md)
-- [Ubuntu开启cron日志](source/Ubuntu/Ubuntu开启cron日志.md)
-- [蒲公英女孩](source/article/蒲公英女孩.md)
-- [TCP joke](source/article/TCP joke.md)
-- [The Dandelion Girl](source/article/The Dandelion Girl.md)
+## Article
+
+ - [蒲公英女孩.md Article](source/Article/蒲公英女孩.md)
+ - [TCP joke.md Article](source/Article/TCP joke.md)
+ - [The Dandelion Girl.md Article](source/Article/The Dandelion Girl.md)
+
+
+## Linux
+
+ - [Docker安装MySQL并设置UTF8编码.md Linux](source/Linux/Docker安装MySQL并设置UTF8编码.md)
+
+
+## Python
+
+ - [NCR 编码解码.md Python](source/Python/NCR 编码解码.md)
+ - [Python解析unicode转义.md Python](source/Python/Python解析unicode转义.md)
+
+
+## Solution
+
+ - [Chrome Flash插件已被拦截.md Solution](source/Solution/Chrome Flash插件已被拦截.md)
+
+
+## Ubuntu
+
+ - [Ubuntu开启cron日志.md Ubuntu](source/Ubuntu/Ubuntu开启cron日志.md)
+
+
