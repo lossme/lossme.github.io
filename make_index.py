@@ -5,13 +5,15 @@ import itertools
 
 def walk_md(rootdir):
     Item = collections.namedtuple("Item", ["filename", "filepath", "category"])
+    allow_ext = (".md", ".html")
 
     item_list = []
     for parent, dirnames, filenames in os.walk(rootdir):
         # for dirname in dirnames:
         #     yield dirname
         for filename in filenames:
-            if filename.endswith(".md"):
+            name, ext = os.path.splitext(filename)
+            if ext in allow_ext:
                 filepath = os.path.join(parent, filename)
                 item = Item(filename=filename, filepath=filepath, category=os.path.split(parent)[1])
                 item_list.append(item)
@@ -34,5 +36,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    # for i in walk_md("source/"):
-    #     pass

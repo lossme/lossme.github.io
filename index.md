@@ -16,6 +16,13 @@
  - [Python解析unicode转义.md](source/Python/Python解析unicode转义.md)
 
 
+## Slideshow
+
+ - [JSONSchema.slides.html](source/Slideshow/JSONSchema.slides.html)
+ - [创建高质量Python项目.slides.html](source/Slideshow/创建高质量Python项目.slides.html)
+ - [在Python项目中使用Makefile.slides.html](source/Slideshow/在Python项目中使用Makefile.slides.html)
+
+
 ## Solution
 
  - [Chrome Flash插件已被拦截.md](source/Solution/Chrome Flash插件已被拦截.md)
